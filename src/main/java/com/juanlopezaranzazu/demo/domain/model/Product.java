@@ -38,4 +38,11 @@ public class Product {
     public void prePersist() {
         createdAt = LocalDateTime.now();
     }
+
+    public Product(String name, String description, BigDecimal price, Integer stock) {
+        this.name = name;
+        this.description = description;
+        this.price = price;
+        this.stock = stock;
+    }
 }
