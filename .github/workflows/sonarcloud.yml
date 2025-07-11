@@ -38,4 +38,5 @@ jobs:
             -Dsonar.projectKey=juanlopezaranzazu_demo \
             -Dsonar.organization=juanlopezaranzazu \
             -Dsonar.host.url=https://sonarcloud.io \
+            -Dsonar.coverage.jacoco.xmlReportPaths=target/site/jacoco/jacoco.xml \
             -Dsonar.login=$SONAR_TOKEN
